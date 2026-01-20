@@ -1,0 +1,7 @@
+public class TrackingHub : Hub
+{
+    public async Task UpdateLocation(string truckId, double lat, double lng)
+    {
+        await Clients.All.SendAsync("ReceiveLocation", truckId, lat, lng);
+    }
+}
