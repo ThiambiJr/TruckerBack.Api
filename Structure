@@ -1,0 +1,23 @@
+TruckerBack.Api
+│
+├── Controllers
+│   ├── AuthController.cs
+│   ├── TrucksController.cs
+│   └── BreakdownController.cs
+│
+├── Hubs
+│   └── TrackingHub.cs
+│
+├── Models
+│   ├── Driver.cs
+│   ├── Truck.cs
+│   ├── Breakdown.cs
+│
+├── Data
+│   └── AppDbContext.cs
+│
+├── Services
+│   ├── JwtService.cs
+│   └── EmailService.cs
+│
+└── Program.cs
